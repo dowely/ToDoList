@@ -1,0 +1,6 @@
+[
+	{"txt" : "Oddać auto do mechanika" , "checkMark" : false},
+	{"txt" : "Zrobić zakupy w Biedronce" , "checkMark" : true},
+	{"txt" : "Odebrać garnitur z pralni" , "checkMark" : false},
+	{"txt" : "Umówić wizytę u dentysty" , "checkMark" : false}
+]
