@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pl">
+ <head>
+  <meta charset="UTF-8">
+  <title>ToDoList</title>
+  
+  <script src="index.js"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" type="text/css" href="style.css">
+ </head>
+ <body <!--onunload="tryPost()"-->>
+ 
+  <div id="errorBox" class="hidden"><i id="errorIcon" class="material-icons">error_outline</i><p>Testowy błąd</p></div>
+ 
+  <div id="wrapper">
+  
+   <div id="inputField">
+    <input type="text" id="item" value="" placeholder="Wpisz rzecz do zrobienia..." onkeydown="enterKey(event)" maxlength="50">
+	<button onclick="addItem()">Dodaj</button>
+	<!--<button onclick="tryPost()">Tabela</button>-->
+	
+   </div>
+   
+   <div id="listContainer">
+    <ul id="theList">
+	 <!--<li><i class="material-icons">check</i><span>Przykładowa rzecz do zrobienia</span><i class="material-icons">cancel</i></li>-->
+	</ul>
+   </div>
+   
+   <div id='demo'></div>
+   
+  </div>
+  <script>loadData();</script>
+ </body>
+</html>

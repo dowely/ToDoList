@@ -1,0 +1,116 @@
+* {
+	margin: 0;
+	padding: 0;
+	background-color: silver;
+	font-family: Verdana;
+	font-size: 16px;
+}
+
+.hidden {
+	visibility: hidden;
+}
+
+.material-icons {
+	padding: 5px;
+	margin: 10px;
+	font-size: 36px;
+	background-color: inherit;
+	border-radius: inherit;
+	border: none;
+}
+
+#errorIcon {
+	font-size: 24px;
+	margin: 0;
+	border: none;
+	color: #EA313D;
+}
+
+p {
+	position: relative;
+	display: inline;
+	top: -6px;
+	padding-left: 5px;
+	color: black;
+	background-color: inherit;
+}
+
+#errorBox {
+	border: 2px solid #EA313D;
+	background-color: #FFBFAA;
+	padding: 0px;
+	width: 500px;
+	margin: 20px auto;
+	border-radius: 10px;
+}
+
+#wrapper {
+	border: 2px solid black;
+	background-color: #77C9D4;
+	margin: 20px auto;
+	width: 500px;
+	border-radius: 20px;
+	
+}
+
+#inputField {
+	width: 90%;
+	display: flex;
+	margin: 25px auto;
+	border-radius: 0px 10px 10px 0px;
+}
+
+#listContainer {
+	border-radius: 0px 0px 20px 20px;
+}
+
+input {
+	
+	flex: 6;
+	padding: 10px;
+	background-color: #EFEFEF;
+	
+}
+
+button {
+	flex: 1;
+	background-color: #F19F4D;
+	border-radius: inherit;
+	border-color: darkgray;
+	border-style: outset;
+}
+
+button:active {
+	border-style: inset;
+}
+
+ul {
+	list-style: none;
+	border-radius: 0px 0px 20px 20px;
+}
+
+li:last-child {
+	border-radius: 0px 0px 20px 20px;
+
+}
+
+li:nth-child(odd) {
+	background-color: #57BC90;
+}
+
+li:nth-child(even) {
+	background-color: #05ad9a;
+}
+
+span {
+	position: relative;
+	top: -10px;
+	padding: 5px;
+	margin: 5px;
+	font-size: 20px;
+	background-color: inherit;
+}
+
+span + i {
+	float: right;
+}
